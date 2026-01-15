@@ -1,9 +1,10 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Run Django Server",
-            "type": "python",
+            "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/octofit-tracker/backend/manage.py",
             "args": [
